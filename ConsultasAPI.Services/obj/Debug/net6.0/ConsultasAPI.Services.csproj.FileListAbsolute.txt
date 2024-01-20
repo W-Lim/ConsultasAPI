@@ -1,0 +1,15 @@
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\bin\Debug\net6.0\ConsultasAPI.Services.deps.json
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\bin\Debug\net6.0\ConsultasAPI.Services.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\bin\Debug\net6.0\ConsultasAPI.Services.pdb
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\bin\Debug\net6.0\ConsultasAPI.Domain.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\bin\Debug\net6.0\ConsultasAPI.Domain.pdb
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.csproj.AssemblyReference.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.AssemblyInfoInputs.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.AssemblyInfo.cs
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.csproj.CoreCompileInputs.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.csproj.CopyComplete
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\refint\ConsultasAPI.Services.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ConsultasAPI.Services.pdb
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Services\obj\Debug\net6.0\ref\ConsultasAPI.Services.dll

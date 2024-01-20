@@ -1,0 +1,12 @@
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\bin\Debug\net6.0\ConsultasAPI.Domain.deps.json
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\bin\Debug\net6.0\ConsultasAPI.Domain.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\bin\Debug\net6.0\ConsultasAPI.Domain.pdb
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.AssemblyInfo.cs
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\refint\ConsultasAPI.Domain.dll
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ConsultasAPI.Domain.pdb
+C:\Users\wende\source\repos\ConsultasAPI\ConsultasAPI.Domain\obj\Debug\net6.0\ref\ConsultasAPI.Domain.dll

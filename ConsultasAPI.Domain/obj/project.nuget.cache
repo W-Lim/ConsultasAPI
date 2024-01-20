@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "rKrR9g37s6MqPJi/Ii7BN0Zq1q15PqsV/bHpbOK2iv/X6IIHT8sDvV7n3CEj87vuuWsLEY/9l634c54REafXqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wende\\source\\repos\\ConsultasAPI\\ConsultasAPI.Domain\\ConsultasAPI.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wende\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\wende\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
