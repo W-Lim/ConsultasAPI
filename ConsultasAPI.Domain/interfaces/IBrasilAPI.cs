@@ -13,5 +13,6 @@ namespace ConsultasAPI.Domain.interfaces
         Task<ResponseGenerico<EnderecoModel>> BuscarEnderecoPorCEP(string cep);
         Task<ResponseGenerico<List<BancoModel>>> BuscarTodosBancos();
         Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco);
+        Task<ResponseGenerico<List<FeriadosModel>>> BuscarFeriados(string ano);
     }
 }

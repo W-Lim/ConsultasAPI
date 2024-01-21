@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace ConsultasAPI.Domain.interfaces
 {
-    public interface IBancoService
+    public interface IFeriadosService
     {
-        Task<ResponseGenerico<List<BancoResponse>>> BuscarTodosBancos();
-        Task<ResponseGenerico<BancoResponse>> BuscarBanco(string codigoBanco);
+        Task<ResponseGenerico<List<FeriadosResponse>>> BuscarFeriados(string ano);
     }
 }

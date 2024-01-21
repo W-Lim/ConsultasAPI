@@ -16,7 +16,7 @@ namespace ConsultasAPI.Domain.Models
         public string? NomeAbreviado { get; set; }
 
         [JsonPropertyName("code")]
-        public int Codigo { get; set; }
+        public int? Codigo { get; set; }
 
         [JsonPropertyName("fullName")]
         public string? NomeCompleto { get; set; }
