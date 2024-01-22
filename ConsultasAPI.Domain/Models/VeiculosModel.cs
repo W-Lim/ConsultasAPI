@@ -5,13 +5,14 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace ConsultasAPI.Domain.DTOs
+namespace ConsultasAPI.Domain.Models
 {
-    public class FeriadosResponse
+    public class VeiculosModel
     {
-        public string? Data { get; set; }
+        [JsonPropertyName("nome")]
         public string? Nome { get; set; }
-        [JsonIgnore]
-        public string? Type { get; set; }
+
+        [JsonPropertyName("valor")]
+        public string? Valor { get; set; }
     }
 }

@@ -15,11 +15,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IEnderecoService, EnderecoService>();
 builder.Services.AddSingleton<IBancoService, BancoService>();
 builder.Services.AddSingleton<IFeriadosService, FeriadosService>();
+builder.Services.AddSingleton<IFIPEService, FIPEService>();
 builder.Services.AddSingleton<IBrasilAPI, BrasilApiRest>();
 
 builder.Services.AddAutoMapper(typeof(EnderecoMapping));
 builder.Services.AddAutoMapper(typeof(BancoMapping));
 builder.Services.AddAutoMapper(typeof(FeriadosMapping));
+builder.Services.AddAutoMapper(typeof(PrecoMapping));
+builder.Services.AddAutoMapper(typeof(VeiculosMapping));
 
 var app = builder.Build();
 

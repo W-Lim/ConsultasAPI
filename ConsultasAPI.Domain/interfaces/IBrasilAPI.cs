@@ -14,5 +14,7 @@ namespace ConsultasAPI.Domain.interfaces
         Task<ResponseGenerico<List<BancoModel>>> BuscarTodosBancos();
         Task<ResponseGenerico<BancoModel>> BuscarBanco(string codigoBanco);
         Task<ResponseGenerico<List<FeriadosModel>>> BuscarFeriados(string ano);
+        Task<ResponseGenerico<List<VeiculosModel>>> BuscarVeiculos(string? tipoVeiculo);
+        Task<ResponseGenerico<List<PrecoModel>>> BuscarPreco(string codigoFipe);
     }
 }

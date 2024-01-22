@@ -121,5 +121,61 @@ namespace ConsultasAPI.Services.Rest
 
             return response;
         }
+
+        public async Task<ResponseGenerico<List<VeiculosModel>>> BuscarVeiculos(string? tipoVeiculo)
+        {
+            string link = String.IsNullOrEmpty(tipoVeiculo) ? "https://brasilapi.com.br/api/fipe/marcas/v1" : $"https://brasilapi.com.br/api/fipe/marcas/v1/{tipoVeiculo}";
+
+            var request = new HttpRequestMessage(HttpMethod.Get, link);
+
+            var response = new ResponseGenerico<List<VeiculosModel>>();
+
+            using (var client = new HttpClient())
+            {
+                var responseBrasilApi = await client.SendAsync(request);
+                var contentResp = await responseBrasilApi.Content.ReadAsStringAsync();
+
+                if (responseBrasilApi.IsSuccessStatusCode)
+                {
+                    var objResponse = JsonSerializer.Deserialize<List<VeiculosModel>>(contentResp);
+                    response.CodigoHttp = responseBrasilApi.StatusCode;
+                    response.DadosRetorno = objResponse;
+                }
+                else
+                {
+                    response.CodigoHttp = responseBrasilApi.StatusCode;
+                    response.ErroRetorno = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
+                }
+            }
+
+            return response;
+        }
+
+        public async Task<ResponseGenerico<List<PrecoModel>>> BuscarPreco(string codigoFipe)
+        {
+            var request = new HttpRequestMessage(HttpMethod.Get, $"https://brasilapi.com.br/api/fipe/preco/v1/{codigoFipe}");
+
+            var response = new ResponseGenerico<List<PrecoModel>>();
+
+            using (var client = new HttpClient())
+            {
+                var responseBrasilApi = await client.SendAsync(request);
+                var contentResp = await responseBrasilApi.Content.ReadAsStringAsync();
+
+                if (responseBrasilApi.IsSuccessStatusCode)
+                {
+                    var objResponse = JsonSerializer.Deserialize<List<PrecoModel>>(contentResp);
+                    response.CodigoHttp = responseBrasilApi.StatusCode;
+                    response.DadosRetorno = objResponse;
+                }
+                else
+                {
+                    response.CodigoHttp = responseBrasilApi.StatusCode;
+                    response.ErroRetorno = JsonSerializer.Deserialize<ExpandoObject>(contentResp);
+                }
+            }
+
+            return response;
+        }
     }
 }
